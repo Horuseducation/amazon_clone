@@ -1,0 +1,736 @@
+<html>
+    <head>
+        <title>Amazon</title>
+        <!--link for css-->
+        <link rel="stylesheet" href="style.css">
+        <!--link for bootstrap-5-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--font awesome link-1-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!--font awesome link-2-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Javascript-->
+        <script>
+
+        </script>  
+    </head>
+    <body style="overflow:scroll;">
+ <!--nav bar 1-->
+
+ <div class="topnav" id="topper">
+  <nav class="navbar navbar-expand-lg  bg-dark">
+      <div class="container-fluid">
+          <!--logo in navbar-->
+          <div><a class="navbar-brand" href="#">
+              <img src="logo.png" style="width:50%;" ></a></div>
+
+          <!--search in navbar-->
+          <div style="padding-top:1px;"><form class="d-flex">
+              <div class="searchbar" style="width:330px;"><input class="form-control me-2" type="text" placeholder="search" ></div>
+                  <button class="btn btn-warning" type="button"><i class="fa fa-search"></i></button></div>
+              </form>&nbsp;&nbsp;
+         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span><i class="fa-solid fa-bars" style="color:white;font: size 21px;" ></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav">
+
+                  <!--india navbar dropdown-->
+                  <div class="dropdown"  style="padding-top:1px;">
+                      <button type="button" class="btn btn-sm btn-dark dropdown-toggle ms-auto" data-bs-toggle="dropdown"> <img src="flagofnav.png" style="width:25px;" class="rounded"></button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><input type="radio" id="lang1" name="language" value="english">
+                          <label for="lang1">english</label><br></a></li>
+                        <li><a class="dropdown-item" href="#"><input type="radio" id="lang2" name="language" value="hindi">
+                          <label for="lang2">Hindi</label><br></a></li>
+                        <li><a class="dropdown-item" href="#"><input type="radio" id="lang3" name="language" value="tamil">
+                          <label for="lang3">Tamil</label><br></a></li>
+                        <li><a class="dropdown-item" href="#"><input type="radio" id="lang4" name="language" value="telugu">
+                          <label for="lang4">Telugu</label><br></a></li>
+                        <li><a class="dropdown-item" href="#"><input type="radio" id="lang5" name="language" value="malayalam">
+                          <label for="lang5">Malayalam</label><br></a></li>
+                      </ul>
+                    </div>
+
+                    <!--sign in dropdown-->
+
+                    <div class="dropdown " id="signer">
+                      <button class="dropbtn" style="color:rgb(255, 255, 255);font-size:15px;font-family: Arial, Helvetica, sans-serif;">Sign in
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <button type="button" class="btn btn-warning btn-sm d-grid"><p style="font-size:21px;color:black;">sign in securely with your mobile</p></button>
+                        <table class="table table-hover table-borderless" style="font-family: Arial, Helvetica, sans-serif;font-size:12px;">
+                            <tr>
+                              <th>Your list from amzaon</th>
+                              <th>Your account sign in with your mobile number</th>
+                            </tr>
+                            <tr>
+                              <td>Create your wishlist according to your ideas </td>
+                              <td>Your's order in your hand "in just one click"</td>
+                            </tr>
+                            <tr>
+                              <td>Your's wish is your product</td>
+                              <td>Your cart your product is secured</td>
+                            </tr> 
+                        </table>
+                      </div>
+                    </div>
+                   <!--return active link--> <a href="#" class="nav-item nav-link active " style="color:white;font-size:16px;font-family: Arial, Helvetica, sans-serif;">Return & Orders</a>
+
+                    <!--cart icon--><a href="#" class="nav-item nav-link active "><i class="fas fa-shopping-cart" style="color:rgb(255, 208, 0);font-size:30px;padding-top:1px;overflow-x: auto;"></i></a>
+                  
+          </div>
+      </div>
+  </nav>
+</div>
+
+        <!--2nd navbar-->
+        <!--<div class="second-navbar">-->
+          <div class="bar">
+          <nav class="navbar navbar-expand-lg " style ="background-color:rgb(35, 38, 54)">
+              <div class="container-fluid">
+                  <a href="#" style="text-decoration:none;color:white;font-size:21px;font-family: Arial, Helvetica, sans-serif;margin-right:12px;">All</a>
+                  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapser">
+                      <span ><i class="fa-solid fa-bars" style="color:white;" ></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapser">
+                      <div class="navbar-nav">
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Best sellers</a>
+                          <a href="#" style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Today deal's</a>
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Mobile</a>
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Coustemer service</a>
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Books</a>
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Electronics</a>
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">Prime fashion</a>
+                          <a href="#"  style="text-decoration:none;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;margin-right:25px;">New release</a>
+                      </div>
+              </div>
+          </nav>
+      </div>
+
+       <!--carousel-->    
+    <div class="container-fluid ">
+    <!-- Carousel -->
+   <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="carousel1.jpeg" alt="air pods" class="mx-auto d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel2.jpeg"  alt="headset" class="mx-auto d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel3.jpeg" alt="camera" class=" mx-auto d-block w-100" >
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <hr>
+  <!--1st Body-->
+  <div class="body1" style="margin-left:25px;overflow-x:auto;">
+    <h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Regular Buyers</h4>
+<table style="width:100%" class="table table-borderless">
+  <tr>
+      <td>  <div class="card" style="width:300px">
+          <div class="card-body">
+              <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >UPTO 20% OFF | Freshy vegetables</h4>
+          <img class="card-img-top" src="grocery.jpg" alt="Card image" style="width:100%">
+        <div style="text-align:center;"><br><a href="#" class="btn btn-warning">click here</a></div> 
+          </div>
+        </div></td>
+      <td>  <div class="card" style="width:300px">
+          <div class="card-body">
+              <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >UPTO 60% OFF | style for men</h4>
+          <img class="card-img-top" src="grocery.jpg" alt="Card image" style="width:100%">
+            <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div> 
+          </div>
+        </div></td>
+      <td><div class="card" style="width:300px">
+          <div class="card-body">
+              <h4 class="card-title" style="text-align:center;" >UPTO 70% OFF | clearance store</h4>
+          <img class="card-img-top" src="grocery.jpg" alt="Card image" style="width:100%">
+            <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+          </div>
+        </div></td>
+    </tr>    
+</table>
+</div> 
+    </div>
+  </div>
+  <hr>
+
+
+    <!--2nd Body--><div class="bodytwo"  style="margin-left:30px;overflow-x:auto;">
+      <h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Get Updates</h4>
+    <table class="table table-borderless">
+      <tr><td><div class="card" style="width:318px">
+        <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >AMAZON PAY| book your tickets</h4>
+            <table  class="table table-borderless" width="100%" >
+              <tr>
+                <td><img src="transport.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Flight tickets</p></td>
+                <td><img src="transport.jpg" width="90%"><p style="text-align:center;font-size:15px;font-family: Arial, Helvetica, sans-serif;">Bus tickets</p></td>
+              </tr>
+              <tr>
+                <td><img src="transport.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Train tickets</p></td>
+                <td><img src="transport.jpg" width="90%"><p style="text-align:center;font-size:15px;font-family: Arial, Helvetica, sans-serif;">essential travel</p></td>
+              </tr>
+            </table>
+          <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >UPTO 70% OFF | Toy store</h4>
+            <table  class="table table-borderless" width="100%" >
+              <tr>
+                <td><img src="toy.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">wood toys</p></td>
+                <td><img src="toy.jpg" width="90%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">remote controls</p></td>
+              </tr>
+              <tr>
+                <td><img src="toy.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">soft toys</p></td>
+                <td><img src="toy.jpg" width="90%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">plastic toys</p></td>
+              </tr>
+            </table>
+          <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+        </div>
+      </div></td>
+      <td>
+
+        <div class="card-body">
+           <div class="card img-fluid" style="width:300px">
+           <img class="card-img-top" src="mac.jpg" style="width:100%">
+            <div class="card-img-overlay">
+           <h4 class="card-title" style="color:rgb(255, 255, 255); text-align:center;">LAPTOP FROM TOP BRANDS</h4>
+           </div>
+           </div>
+          <br><div class="card" style="width:268px">
+          <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >SIGN IN for your best experience</h4>
+          <div style="text-align:center;" ><br><a href="#" class="btn btn-warning d-grid">sign in securely</a></div>
+         </div>
+         </div>
+        </div>
+      </td>
+      </tr>
+      </table>
+    </div>
+      <hr>
+
+     <!--3rd Body-->
+     <div class="bodythree" style="margin-left:30px;overflow-x: auto;" >
+     <h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Top Rated</h4>
+     <table class="table bordered" width="100%"  style="margin-left:25px;">
+      <tr>
+        <td>
+         <div class="card" style="width:370px">
+           <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Top Rated | Premium Quality Brands</h4>
+            <table  class="table table-borderless" width="100%" >
+              <tr>
+                <td><img src="bed.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Cotton Beds</p></td>
+                <td><img src="bed.jpg" width="100%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">Furnitures</p></td>
+              </tr>
+                <tr>
+                <td><img src="bed.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Glass appliances</p></td>
+                <td><img src="bed.jpg" width="100%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">terracotta pots</p></td>
+                </tr>   
+              </table>
+               <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+            </div>
+          </div>
+        </td>
+      <td>
+        <div class="card" style="width:360px">
+          <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Top Rated | Picks For Your Home</h4>
+            <table  class="table table-borderless" width="100%" >
+              <tr>
+                <td><img src="houseold.png" width="100%"><p style="text-align:center;">AC</p></td>
+                <td><img src="houseold.png" width="90%"><p style="text-align:center; font-size:15px;">Fridge</p></td>
+              </tr>
+              <tr>
+                <td><img src="houseold.png" width="100%"><p style="text-align:center;">Washing machine</p></td>
+                <td><img src="houseold.png" width="90%"><p style="text-align:center; font-size:15px;">Microwaves</p></td>
+              </tr>   
+               </table>
+              <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+            </div>
+          </div>
+        </td>
+      <td>
+        <div class="card" style="width:300px;">
+           <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Shop And Pay | Earn Rewards Daily</h4>
+            <table  class="table table-borderless" width="100%" >
+              <tr>
+                <td><img src="rewards.jpg" width="100%"><p style="text-align:center;">Scratch Rewards</p></td>
+                <td><img src="rewards.jpg" width="100%"><p style="text-align:center; font-size:15px;">Prize Coins</p></td>
+              </tr>
+              <tr>
+                <td><img src="rewards.jpg" width="100%"><p style="text-align:center;">Trip Reward</p></td>
+                <td><img src="rewards.jpg" width="100%"><p style="text-align:center; font-size:15px;">Coupans</p></td>
+              </tr>   
+            </table>
+            <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+          </div>
+        </div>
+      </td>
+      </tr>
+      </table>
+    </div>
+    <hr>
+
+      <!--scroll bar shopping chart -->
+
+      <h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Today's Deal</h4>
+      <div class="scrool-shop" style="overflow-x:auto">
+      <table class="table table-borderless ">
+        <tr>
+            <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="smartwatch.webp" alt="Card image" style="width:100%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">20% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="mobile.jpg" alt="Card image" style="width:90%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">30% OFFER</a></div> 
+         </div>
+       </div><td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="shoe.jpg" alt="Card image" style="width:75%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">20% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="headset.jpg" alt="Card image" style="width:100%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">20% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="laptop.jpg" alt="Card image" style="width:75%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">40% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="dress.jpg" alt="Card image" style="width:100%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">15% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="shoe.jpg" alt="Card image" style="width:75%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">20% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="phone.jpg" alt="Card image" style="width:75%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">30% OFFER</a></div> 
+         </div>
+       </div></td>
+       <td><div class="card" style="width:300px">
+         <div class="card-body">
+         <img class="card-img-top" src="child.jpg" alt="Card image" style="width:75%">
+           <div style="text-align:center;" ><br><a href="#" class="btn btn-danger">10% OFFER</a></div> 
+         </div>
+       </div></td>
+       </tr>
+       </table>
+      </div>
+
+     <!--2nd scroll bar kitchen shopping chart -->
+
+    <br><h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Kitchen Offers | Upto 50% OFF</h4>
+    <div class="scrool-shop2" style="overflow-x:auto;">
+      <table class="table table-borderless ">
+       <tr>
+           <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="spoon.jpg" alt="Card image" style="width:100%"> </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="cup.jpg" alt="Card image" style="width:90%"> 
+        </div>
+      </div><td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="fork.jpg" alt="Card image" style="width:80%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="plate.jpg" alt="Card image" style="width:90%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="bowl.jpg" alt="Card image" style="width:90%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="plate.jpg" alt="Card image" style="width:90%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="fork.jpg" alt="Card image" style="width:80%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="spoon.jpg" alt="Card image" style="width:100%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="cup.jpg" alt="Card image" style="width:90%"> 
+        </div>
+      </div></td>
+      </tr>
+      </table>
+      </div>
+
+
+    <!--3rd scroll bar groccery shopping chart -->
+
+    <br><h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Cushion covers from Ahmedabad| Upto 50% OFF</h4>
+    <div class="scrool-shop3" style="overflow-x:auto;">
+      <table class="table table-borderless ">
+       <tr>
+           <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow1.jpg" alt="Card image" style="width:100%">
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow2.jpg" alt="Card image" style="width:98%"> 
+        </div>
+      </div><td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow3.jpg" alt="Card image" style="width:100%">
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow4.jpg" alt="Card image" style="width:100%">
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow5.jpg" alt="Card image" style="width:97%">
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow6.jpg" alt="Card image" style="width:100%">
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow7.jpg" alt="Card image" style="width:100%"> 
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow2.jpg" alt="Card image" style="width:98%">
+        </div>
+      </div></td>
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+        <img class="card-img-top" src="pillow1.jpg" alt="Card image" style="width:90%">
+        </div>
+      </div></td>
+      </tr>
+      </table>
+      </div>
+      <hr>
+
+      <!--4th body-->
+      <div class="bodyfour"  style="margin-left:25px;overflow-x:auto;">
+      <h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Sell Your Wish</h4>
+     <br> <table class="table table-borderless">
+        <tr>
+            <td>
+                <div class="card" style="width:235px">
+                  <div class="card-body">
+                 <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Start selling on Amazon</h4>
+                <img class="card-img-top" src="money.jpg" alt="Card image" style="width:90%">
+             <div style="text-align:center;"><br><a href="#" class="btn btn-warning">click here</a></div> 
+        </div>
+      </div></td>
+      
+      <td><div class="card" style="width:250px">
+        <div class="card-body">
+            <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Chocolate from top brands</h4>
+        <img class="card-img-top" src="chocolate.jpg" alt="Card image" style="width:100%">
+      <div style="text-align:center;"><br><a href="#" class="btn btn-warning">click here</a></div> 
+        </div>
+      </div></td>
+      
+      <td><div class="card" style="width:300px">
+        <div class="card-body">
+            <h4 class="card-title" style="text-align:center; font-family: Arial, Helvetica, sans-serif;" >Perfect birthday celebration</h4>
+            <table  class="table table-borderless" width="100%" >
+              <tr>
+                <td><img src="birthday.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Gifts</p></td>
+                <td><img src="birthday.jpg" width="90%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">Party equipments</p></td>
+              </tr>
+              <tr>
+                <td><img src="birthday.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Cake essence</p></td>
+                <td><img src="birthday.jpg" width="90%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">Plates</p></td>
+              </tr>
+            </table>
+          <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+        </div>
+      </div>
+      </td>
+      </tr>
+      </table></div>
+      <hr>
+      
+      <!--4th scroll bar groccery shopping chart -->
+     <br><h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >UPTO 70% OFF| Saree collections from Ahmedabad</h4>
+      <div class="scrool-shop3" style="overflow-x:auto;">
+        <table class="table table-borderless ">
+         <tr>
+             <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree1.jpg" alt="Card image" style="width:90%">
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree2.jpg" alt="Card image" style="width:95%"> 
+          </div>
+        </div><td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree3.png" alt="Card image" style="width:94%">
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree1.jpg" alt="Card image" style="width:90%">
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree2.jpg" alt="Card image" style="width:97%">
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree3.png" alt="Card image" style="width:94%">
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree1.jpg" alt="Card image" style="width:90%"> 
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree2.jpg" alt="Card image" style="width:97%">
+          </div>
+        </div></td>
+        <td><div class="card" style="width:300px">
+          <div class="card-body">
+          <img class="card-img-top" src="saree3.png" alt="Card image" style="width:94%">
+          </div>
+        </div></td>
+        </tr>
+        </table>
+        </div>
+        <hr>
+        
+   <!--5th body-->
+    
+   <div class="container-fluid">
+    <br><h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Prizes </h4>
+    <a href="#"><img src="swiftcar.jpeg" class="rounded mx-auto d-block"  style="width:60%;"></a>
+  </div>
+  <hr>
+   <!--6th body-->
+   <div class="bodyfour"  style="margin-left:25px; overflow:auto;">
+    <h4 class="h4" style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Yours Kitchen</h4>
+   <table class="table bordered" width="100%">
+    <tr>
+      <td>
+       <div class="card" style="width:275px">
+         <div class="card-body">
+          <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Top Rated | Premium Quality Kitchen utensils</h4>
+          <table  class="table table-borderless" width="100%" >
+            <tr>
+              <td><img src="kitchentools.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Pans</p></td>
+              <td><img src="kitchentools.jpg" width="100%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">Copper tumblers</p></td>
+            </tr>
+              <tr>
+              <td><img src="kitchentools.jpg" width="100%"><p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">Glass bowls</p></td>
+              <td><img src="kitchentools.jpg" width="100%"><p style="text-align:center; font-size:15px;font-family: Arial, Helvetica, sans-serif;">Pots</p></td>
+              </tr>   
+            </table>
+             <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+          </div>
+        </div>
+      </td>
+    <td>
+      <div class="card" style="width:300px">
+        <div class="card-body">
+          <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Top Rated | Hardwear tools</h4>
+           <img class="card-img-top" src="hardweartools.jpg" alt="Card image" style="width:100%">
+            <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+          </div>
+        </div>
+      </td>
+    <td>
+      <div class="card" style="width:205px">
+         <div class="card-body">
+          <h4 class="card-title" style="text-align:center;font-family: Arial, Helvetica, sans-serif;" >Digital INDIA</h4>
+          <table  class="table table-borderless" width="100%" >
+            <tr>
+              <td><img src="camera.jpg" width="100%"><p style="text-align:center;">Camera</p></td>
+              <td><img src="camera.jpg" width="100%"><p style="text-align:center; font-size:15px;">CCTV</p></td>
+            </tr>
+            <tr>
+              <td><img src="camera.jpg" width="100%"><p style="text-align:center;">Monitor</p></td>
+              <td><img src="camera.jpg" width="100%"><p style="text-align:center; font-size:15px;">Laptops</p></td>
+            </tr>   
+          </table>
+          <div style="text-align:center;" ><br><a href="#" class="btn btn-warning">click here</a></div>
+        </div>
+      </div>
+    </td>
+    </tr>
+    </table>
+     </div>
+    <hr>
+
+    <!--7th body-->
+    <!--8th sign body-->
+    <p style="text-align:center;font-family: Arial, Helvetica, sans-serif;">see personalized recommendations</p>
+   <div class="d-grid"> <a href="#signer" class="btn btn-warning btn-block">sign in securely</a></div>
+    <p style="font-size:12px;text-align:center;font-family: Arial, Helvetica, sans-serif;">new coustemer care<a href="#signer" style="text-decoration:none;"> sign in</a></p>
+    <hr>
+   <!--Footer-->
+   <div class="d-grid"> <a href="#topper" class="btn btn-block" style="background-color:rgb(19, 13, 44);color:rgb(255, 255, 255);font-size:21px;" >Back to top</a></div>
+   <div class="container-fluid "  style="background-color:rgba(13, 5, 46, 0.89)">
+
+    <table class="main table">
+      <tr><td>
+      <table class="subtable1">
+            <tr>
+              <th><a href="#" style="text-decoration:none;color:white;">Get to know us</a></th>
+            </tr>
+            <tr>
+              <td><a href="#"  style="text-decoration:none;color:white;">about us</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"  style="text-decoration:none;color:white;">carrer</a></td>
+      
+            </tr>
+            <tr>
+              <td><a href="#"  style="text-decoration:none;color:white;">Amazon care </a></td>
+            </tr>
+            <tr>
+              <td><a href="#"  style="text-decoration:none;color:white;">Gift sale</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"  style="text-decoration:none;color:white;">Amazon science</a></td>
+            </tr>
+        </table></td>
+      <td>
+        <table class="subtable2">
+          <tr>
+            <th><a href="#" style="text-decoration:none;color:white;">Get to know us</a></th>
+          </tr>
+          <tr>
+            <td><a href="#"  style="text-decoration:none;color:white;">about us</a></td>
+          </tr>
+          <tr>
+            <td><a href="#"  style="text-decoration:none;color:white;">carrer</a></td>
+      
+          </tr>
+          <tr>
+            <td><a href="#"  style="text-decoration:none;color:white;">Amazon care </a></td>
+          </tr>
+          <tr>
+            <td><a href="#"  style="text-decoration:none;color:white;">Gift sale</a></td>
+          </tr>
+          <tr>
+            <td><a href="#"  style="text-decoration:none;color:white;">Amazon science</a></td>
+          </tr>
+      </table></td>
+     <td>
+      <table class="subtable3">
+        <tr>
+          <th><a href="#" style="text-decoration:none;color:white;">Get to know us</a></th>
+        </tr>
+        <tr>
+          <td><a href="#"  style="text-decoration:none;color:white;">about us</a></td>
+        </tr>
+        <tr>
+          <td><a href="#"  style="text-decoration:none;color:white;">carrer</a></td>
+      
+        </tr>
+        <tr>
+          <td><a href="#"  style="text-decoration:none;color:white;">Amazon care </a></td>
+        </tr>
+        <tr>
+          <td><a href="#"  style="text-decoration:none;color:white;">Gift sale</a></td>
+        </tr>
+        <tr>
+          <td><a href="#"  style="text-decoration:none;color:white;">Amazon science</a></td>
+        </tr>
+      </table>
+      </td></tr>
+      </table>
+      <hr>
+    <div class="brand-updates"><table><tr><td><a class="navbar-brand" href="#">
+        <img src="logo.png" class="mx-auto d-block" style="width:50%;" ></a></td>
+       <td><div class="dropdown"  style="padding-top:1px;">
+          <button type="button" class="btn btn-sm btn-dark dropdown-toggle ms-auto" data-bs-toggle="dropdown"> <img src="flagofnav.png" style="width:25px;" class="rounded"></button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><input type="radio" id="lang1" name="language" value="english">
+              <label for="lang1">english</label><br></a></li>
+            <li><a class="dropdown-item" href="#"><input type="radio" id="lang2" name="language" value="hindi">
+              <label for="lang2">Hindi</label><br></a></li>
+            <li><a class="dropdown-item" href="#"><input type="radio" id="lang3" name="language" value="tamil">
+              <label for="lang3">Tamil</label><br></a></li>
+            <li><a class="dropdown-item" href="#"><input type="radio" id="lang4" name="language" value="telugu">
+              <label for="lang4">Telugu</label><br></a></li>
+            <li><a class="dropdown-item" href="#"><input type="radio" id="lang5" name="language" value="malayalam">
+              <label for="lang5">Malayalam</label><br></a></li>
+          </ul>
+        </div>
+      </td></tr></table>
+      </div>
+      <div class="container-fluid" id="contact">
+        <footer style="background-color:black;text-align:center;">
+            <br><p style="font-size:25px;font-family:Segoe UI;color:white;">Find Us On</p>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" style=" color:white;font-size:35px;padding-left:8px;"></i></a><a href="https://www.instagram.com/?hl=en"target="_blank"><i class="fab fa-instagram" style=" color:white;font-size:35px;padding-left:8px;"></i></a><a href="https://www.youtube.com/watch?v=oYRda7UtuhA"target="_blank"><i class="fab fa-youtube" style=" color:white;font-size:35px;padding-left:8px;"></i></a><a href="https://twitter.com/i/flow/login"target="_blank"><i class="fab fa-twitter" style=" color:white;font-size:35px;padding-left:8px;"></i></a><br>
+            <br><p style="font-size:19px;font-family:Segoe UI;color:white;">Powered by<a href="https://oceanacademy.co.in/" target="_blank"style="text-decoration:none;color:white;font-size:15px;font-family:Segoe UI;"> Ocean Academy</a></p>
+       <br></footer> </div> 
+   </div>
+    </body>
+</html>
